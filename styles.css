@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family:cursive;
+    color:blue;
+}
+
+p {
+    font-family: cursive;
+    background-color: aqua;
+    padding: 5px;
+    margin: 15px;
+}
+
+img {
+    height: auto;
+    width: 50%;
+    
+}
+
+/*figure {
+    display: flex;
+    align-self: center;
+} */
+
+/*div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
