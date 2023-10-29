@@ -9,16 +9,17 @@ h1 {
 
 p {
     font-family: cursive;
-    background-color: aqua;
     padding: 5px;
     margin: 15px;
+    background-color: cyan;
 }
 
 img {
     height: auto;
     width: 50%;
-}
+} 
 
 div {
-    display: inline;
+    display: flex;
+   
 }
