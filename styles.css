@@ -16,6 +16,7 @@ p {
   padding: 5px;
   margin: 15px;
   background-color: cyan;
+  border-radius: 15px;
 }
 
 img {
@@ -25,10 +26,19 @@ img {
 
 div {
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 li {
-  background-color: lightsalmon;
   padding-inline-start: 10px;
   list-style-type: "*";
+}
+
+ul {
+  background-color: yellow;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 10px;
 }
