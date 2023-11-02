@@ -26,3 +26,9 @@ img {
 div {
   display: flex;
 }
+
+li {
+  background-color: lightsalmon;
+  padding-inline-start: 10px;
+  list-style-type: "*";
+}
