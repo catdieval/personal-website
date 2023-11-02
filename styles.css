@@ -42,3 +42,8 @@ ul {
   padding-right: 5px;
   padding-left: 10px;
 }
+
+li[class="no-bullet-point"] {
+  list-style-type: none;
+  font-size: 17px;
+}
