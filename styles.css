@@ -1,25 +1,24 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1 {
-    font-family:cursive;
-    color:blue;
+  font-family: "Times New Roman";
+  color: blue;
 }
 
 p {
-    font-family: cursive;
-    padding: 5px;
-    margin: 15px;
-    background-color: cyan;
+  font-family: "Times New Roman";
+  padding: 5px;
+  margin: 15px;
+  background-color: cyan;
 }
 
 img {
-    height: auto;
-    width: 50%;
-} 
+  height: auto;
+  width: 50%;
+}
 
 div {
-    display: flex;
-   
+  display: flex;
 }
