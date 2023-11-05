@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: lightsalmon;
+}
+
 h1 {
   font-family: "Times New Roman";
   color: blue;
