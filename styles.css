@@ -1,53 +1,121 @@
-* {
-  box-sizing: border-box;
+body {
+  background-color: paleturquoise;
 }
 
-body {
-  background-color: lightsalmon;
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: auto;
+  border: solid 2px black;
+  background-color: white;
+  padding: 20px;
 }
 
 h1 {
   font-family: "Times New Roman";
-  color: blue;
+  margin-top: 0;
 }
 
 h2 {
   font-family: "Times New Roman";
+  font-size: 25px;
 }
 
 p {
   font-family: "Times New Roman";
-  padding: 5px;
-  margin: 15px;
-  background-color: cyan;
-  border-radius: 15px;
+  font-size: 18px;
 }
 
-img {
-  height: auto;
-  width: 50%;
+figcaption {
+  font-size: 18px;
 }
 
-div {
+nav {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  gap: 10px;
+}
+
+hr {
+  border: none;
+  margin-top: 20px;
+  border-top: solid 1px black;
+}
+
+#skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   flex-wrap: wrap;
+  gap: 20px;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vscode-example {
+  height: auto;
+  max-width: 690px;
+}
+
+.project-deployment {
+  height: auto;
+  max-width: 689px;
+}
+
+.paper-example {
+  height: auto;
+  max-width: 600px;
+}
+
+.figure-example {
+  height: auto;
+  max-width: 600px;
+}
+
+span {
+  font-size: 25px;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a[class="external-link"] {
+  font-size: 18px;
 }
 
 li {
-  padding-inline-start: 10px;
+  padding-inline-start: 5px;
   list-style-type: "*";
+  font-size: 18px;
 }
 
 ul {
-  background-color: yellow;
+  border: dashed 2px red;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-right: 5px;
-  padding-left: 10px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: fit-content;
 }
 
 li[class="no-bullet-point"] {
   list-style-type: none;
-  font-size: 17px;
+  font-size: 18px;
+  padding-inline-start: 0;
 }
