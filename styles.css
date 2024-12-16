@@ -34,7 +34,7 @@ figcaption {
 nav {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 20px;
 }
 
 hr {
@@ -132,4 +132,12 @@ li[class="no-bullet-point"] {
   position: fixed;
   bottom: 20px;
   right: 25%;
+}
+
+.certificate-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: palegoldenrod;
+  gap: 20px;
 }
