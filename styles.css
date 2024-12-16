@@ -124,3 +124,12 @@ li[class="no-bullet-point"] {
   font-size: 18px;
   padding-inline-start: 0;
 }
+
+.back-to-top {
+  background-color: white;
+  border: solid 1px black;
+  padding: 6px;
+  position: fixed;
+  bottom: 20px;
+  right: 25%;
+}
