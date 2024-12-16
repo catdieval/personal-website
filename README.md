@@ -4,7 +4,7 @@ Hi!
 
 Here is the repository for my personal website, written in HTML and CSS. 
 
-This contains a short biography and a list of technical / soft skills.
+This contains a short biography, a list of technical / soft skills and informations about my web development course.
 
 
 
